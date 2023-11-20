@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь в городе Макеевка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Главная страница</a></li>
+                <li><a href="gorod.html">О городе</a></li>
+                <li><a href="infrastructure.html">Инфраструктура</a></li>
+                <li><a href="kultura.html">Культура и искусство</a></li>
+                <li><a href="svyaz.html">Обратная связь</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <h2>Обратная связь</h2>
+            <p>Для связи с нами и получения дополнительной информации о городе Макеевка, пожалуйста, используйте следующие контактные данные:</p>
+
+            <h3>Контактная информация</h3>
+            <ul>
+                <li><strong>Телефон:</strong> +7 (949) 413-24-53</li>
+                <li><strong>Электронная почта:</strong> info@example.com</li>
+            </ul>
+
+            <h3>Адрес</h3>
+            <p>Город Макеевка<br> Улица Центральная, дом 10</p>
+
+            <h3>Форма обратной связи</h3>
+            <p>Вы также можете связаться с нами, заполнив форму обратной связи ниже:</p>
+
+            <form action="обработчик.php" method="post">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ваша электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+
+        </div>
+    </section>
+</div>
+</body>
+</html>
